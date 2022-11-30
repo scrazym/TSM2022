@@ -1,0 +1,23 @@
+.change {
+    min-height: 690px;
+    padding: 100px 170px 50px 170px;
+    margin: 0 auto;
+  
+    &__img {
+        &-pic {
+            width: 100%;
+        }
+    }
+
+    
+}
+
+.grid__wrapper {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
