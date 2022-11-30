@@ -1,0 +1,50 @@
+.trying {
+    min-height: 951px;
+    background: url(../assets/img/bg1.png) center (center / cover) no-repeat;
+    padding: 207px 170px 183px 170px;
+    display: flex;
+            // сдесь лучше сделать грид разные блоки задать в %
+
+    justify-content: space-between;
+    
+
+    &__order {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 470px;
+        height: 450px;
+        background-color: #FFFFFF;
+        border-radius: 3%;
+        
+        
+        &-title {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &_form {
+            padding: 0 52px 0 52px;
+        }
+        &_input {
+            width: 100%;
+            height: 38px;
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+       
+    }
+    &__start {
+        height: 8%;
+        background-color: #EC7979;
+        color: #ffffff;
+        text-align: center;
+        font-size: 14px;
+        line-height: 38px;
+    }
+}
+
+.red {
+    color: #EC7979;
+}

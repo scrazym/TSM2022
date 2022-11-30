@@ -1,0 +1,11 @@
+.download {
+    background: none;
+    border: 2px solid #ffffff;
+    width: 270px;
+    height: 58px;
+    font-size: 18px;
+    color: #ffffff;
+    &:hover {
+        cursor: pointer;
+    }
+}

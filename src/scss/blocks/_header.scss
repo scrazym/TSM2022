@@ -1,5 +1,36 @@
 .header {
-    max-width: 1510px;
+    width: 100%;
     min-height: 75px;
     background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14% 0 9%;
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        color: #ffffff;
+    }
+    &__logo {
+        text-align: center;
+        font-size: 30px;
+        &_text {
+            color: #ffffff;
+            &-red {
+                color:#EC7979;
+            }
+            
+        }
+    }
+    &__nav {
+       &_list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        &-item {
+            padding:0 20px 0 20px;
+           }
+       }
+       
+    }
 }
