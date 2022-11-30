@@ -1,13 +1,30 @@
 .trying {
+    position: relative;
     min-height: 951px;
     background: url(../assets/img/bg1.png) center (center / cover) no-repeat;
     padding: 207px 170px 183px 170px;
     display: flex;
+    z-index: 2;
             // сдесь лучше сделать грид разные блоки задать в %
 
     justify-content: space-between;
-    
-
+    .bg-shadow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    &__title {
+       text-transform: uppercase;
+       color: #FFFFFF; 
+       font-size: 48px;
+       font-weight: 500;
+       position: relative;
+       z-index: 4;
+    }
     &__order {
         display: flex;
         flex-direction: column;
@@ -19,6 +36,7 @@
         
         
         &-title {
+            margin-top: 50px;
             text-transform: uppercase;
             text-align: center;
             font-size: 24px;
@@ -45,8 +63,6 @@
     }
 }
 
-.red {
-    color: #EC7979;
-}
+
 
 //если ты будешь это читать, не могу понять как сделать закругленную часть get started:((
