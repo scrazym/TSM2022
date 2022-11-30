@@ -1,3 +1,41 @@
 .awesome {
     min-height: 773px;
+    padding: 0 170px 58px 170px;
+    &__title {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__descr {
+        text-align: center;
+        margin-top: 40px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        justify-content: space-between;
+        &_item {
+            display: flex;
+            flex-direction: column;
+            height: 500px;  //for time
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 48px;
+            &_img {
+                width: 92px;
+                height: 92px;
+                border: 1px solid #EC7979;
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &-icon {
+                    display: block;
+                    margin: 0 auto;                }
+            }
+        }
+    }
 }

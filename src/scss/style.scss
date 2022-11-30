@@ -5,11 +5,11 @@
     font-family: 'Raleway'
 
 }
-// .container {
-//     margin: 0 auto;
-//     max-width: 1170px;
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
     
-// }
+}
 
 @import 'blocks/header';
 @import 'blocks/trying';
@@ -17,3 +17,4 @@
 @import 'blocks/change';
 @import 'blocks/awesome';
 @import 'blocks/btn';
+@import 'blocks/divider';
