@@ -1,10 +1,13 @@
 .divider {
     width: 170px;
-    margin: 0 auto;
     &-grey {
         border: 1px solid #FFFFFF;
+        position: relative;
+        z-index: 4;
     }
     &-red {
         border: 1px solid #EC7979;
+        margin: 0 auto;
+
     }
 }
