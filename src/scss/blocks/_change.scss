@@ -27,8 +27,6 @@
 }
 // пока нет мыслей как сделать табы
 .grid__wrapper {
-    display: flex;
-    justify-content: center;
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     column-gap: 30px;
