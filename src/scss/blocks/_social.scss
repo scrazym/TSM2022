@@ -18,5 +18,13 @@
         width: 60%;
         display: flex;
         justify-content: space-between;
+        &_item {
+            &:hover {
+                background-color: #EC7979;
+                border-radius: 40px;
+                transform: scale(1.2);
+                transition: all 1.5s;
+            }
+        }
     }
 }
