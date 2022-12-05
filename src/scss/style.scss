@@ -8,6 +8,7 @@
 .container {
     margin: 0 auto;
     max-width: 1170px;
+    position: relative;
     
 }
 
@@ -18,3 +19,5 @@
 @import 'blocks/awesome';
 @import 'blocks/btn';
 @import 'blocks/divider';
+@import 'blocks/title';
+@import 'blocks/price';

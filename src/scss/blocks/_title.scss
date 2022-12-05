@@ -1,0 +1,24 @@
+.title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 170px;
+        top: 100px;
+        border: 1px solid #EC7979;
+        left: calc(50% - 85px);
+    }
+    &__descr {
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+    }
+    
+}

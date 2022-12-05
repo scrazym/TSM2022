@@ -1,18 +1,10 @@
 .awesome {
     min-height: 773px;
-    padding: 0 170px 58px 170px;
-    &__title {
-        text-transform: uppercase;
-        font-weight: 400;
-        font-size: 36px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    &__descr {
-        text-align: center;
-        margin-top: 40px;
-    }
+    padding: 30px 170px 58px 170px;
+
+    
     &__wrapper {
+        padding-top: 70px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
@@ -20,10 +12,10 @@
         &_item {
             display: flex;
             flex-direction: column;
-            height: 500px;  //for time
+            height: 370px;  //for time
             justify-content: space-between;
             align-items: center;
-            padding-top: 48px;
+            padding-top: 40px;
             &_img {
                 width: 92px;
                 height: 92px;
@@ -35,6 +27,9 @@
                 &-icon {
                     display: block;
                     margin: 0 auto;                }
+            }
+            &-descr {
+                text-align: center;
             }
         }
     }
