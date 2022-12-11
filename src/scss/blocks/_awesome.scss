@@ -8,14 +8,15 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
-        justify-content: space-between;
         &_item {
             display: flex;
             flex-direction: column;
-            height: 370px;  //for time
-            justify-content: space-between;
+            // height: 370px;  //for time
             align-items: center;
             padding-top: 40px;
+            &_title {
+                padding-top: 70px;
+            }
             &_img {
                 width: 92px;
                 height: 92px;
@@ -29,6 +30,7 @@
                     margin: 0 auto;                }
             }
             &-descr {
+                padding-top: 40px;
                 text-align: center;
             }
         }
