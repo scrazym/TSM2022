@@ -3,6 +3,7 @@
     font-weight: 400;
     font-size: 36px;
     text-align: center;
+   
     &::after {
         content: '';
         position: absolute;
@@ -44,6 +45,18 @@
         font-size: 18px;
         line-height: 21px;
         color: #86878B;
+    }
+    &-white {
+        color: #FFFFFF;
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 170px;
+            top: 100px;
+            border: 1px solid #FFFFFF;
+            left: calc(50% - 85px);
+        }
     }
     
 }
