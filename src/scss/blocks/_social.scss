@@ -28,11 +28,12 @@
         display: flex;
         justify-content: space-between;
         &_item {
+            border-radius: 20px;
             &:hover {
                 background-color: #EC7979;
-                border-radius: 40px;
                 transform: scale(1.2);
-                transition: all 1.5s;
+                transition: all 0.5s;
+                
             }
         }
     }
