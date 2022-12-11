@@ -41,8 +41,6 @@
         height: 450px;
         background-color: #FFFFFF;
         border-radius: 3%;
-        position: relative;
-        z-index: 4;
         padding-top: 50px;
         
         
@@ -59,14 +57,13 @@
             padding: 0 52px 0 52px;
         }
         &_input {
-            width: 100%;
+            
             height: 38px;
             border: none;
             font-weight: 400;
             font-size: 14px;
             line-height: 19px;
             color: #BDBDBD;
-            border-bottom: 1px solid #BDBDBD;
         }
        
     }

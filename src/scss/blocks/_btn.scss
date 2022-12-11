@@ -12,6 +12,11 @@
     }
     &-red {
         background-color: #EC7979;
+        &-w370 {
+            display: block;
+            width: 370px;
+            margin: 0 auto;
+        }
     }
     &-w370 {
         width: 370px;
