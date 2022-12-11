@@ -1,0 +1,19 @@
+.form {
+    background-color: #FFFFFF;
+    
+    &__input {
+        width: 100%;
+        color: #BDBDBD;
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        &-msg {
+            padding: 0;
+            height: 216px;
+            vertical-align: top;
+            
+        }
+    }
+}

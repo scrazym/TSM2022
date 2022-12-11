@@ -1,0 +1,49 @@
+.testimotionals {
+    padding:100px 0 65px 0;
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        &_item {
+            &_text {
+                text-align: center;
+                color: #86878B;
+                background: #E2E2E2;
+                border-radius: 10px;
+                padding: 38px 20px;
+            }
+            &-triangle {
+                width: 0;
+                height: 0;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-top: 30px solid #E2E2E2;
+                margin-top: -1px;
+                margin-left: 65px;
+                // background: #E2E2E2;
+            }
+            &_person {
+                display: flex;
+                padding-top: 45px;
+                &-foto {
+                    margin-right: 30px;
+                }
+                &_info {
+                    &-name {
+                        line-height: 55px;
+                    }
+                    &-job {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #000000;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
