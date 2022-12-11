@@ -12,6 +12,24 @@
         border: 1px solid #EC7979;
         left: calc(50% - 85px);
     }
+    &-fz48 {
+        text-transform: uppercase;
+        color: #FFFFFF; 
+        font-size: 48px;
+        font-weight: 400;
+        position: relative;
+        z-index: 4;
+        padding-bottom: 30px;
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 170px;
+            top: 100%;
+            border: 1px solid #FFFFFF;
+            left: 0;
+        }
+    }
     &__descr {
         text-align: center;
         margin-top: 100px;
