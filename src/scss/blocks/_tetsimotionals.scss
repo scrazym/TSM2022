@@ -6,12 +6,15 @@
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
         &_item {
+          
             &_text {
                 text-align: center;
                 color: #86878B;
                 background: #E2E2E2;
                 border-radius: 10px;
-                padding: 38px 20px;
+                padding: 10% 20px;
+                height: 180px;
+                overflow: hidden;// не понимаю вроде же должно было скрыть или с padding не работает
             }
             &-triangle {
                 width: 0;

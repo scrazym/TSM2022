@@ -3,17 +3,23 @@
     
     &__input {
         width: 100%;
-        color: #BDBDBD;
+        
         border: none;
         border-bottom: 1px solid #BDBDBD;
         font-weight: 400;
         font-size: 14px;
         line-height: 19px;
+        color: #BDBDBD;
+        ::placeholder {
+            color: #BDBDBD;
+        }
         &-msg {
             padding: 0;
             height: 216px;
             vertical-align: top;
-            
+            &::placeholder {
+                transform: translateY(-60px);
+            }
         }
     }
 }
