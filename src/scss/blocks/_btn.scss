@@ -9,8 +9,27 @@
     color: #ffffff;
     &:hover {
         cursor: pointer;
+        color: #EC7979;
+        border: 2px solid #EC7979;
     }
     &-red {
         background-color: #EC7979;
+        &:hover {
+            background-color: #AB4949;
+            color:#ffffff;
+            border: 2px solid #AB4949;
+        }
+        &-w370 {
+            display: block;
+            width: 370px;
+            margin: 0 auto;
+        }
+    }
+    &-w370 {
+        width: 370px;
+        display: block;
+        margin: 0 auto;
     }
 }
+
+//надо переделать классы кнопок
