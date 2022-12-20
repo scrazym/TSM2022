@@ -13,7 +13,7 @@
         }
         
         &-item {
-            width: 19.3%;
+            width: 184px;
             text-transform: uppercase;
             text-align: center;
             font-weight: 400;
@@ -21,15 +21,17 @@
             line-height: 38px;
             background-color: #FFFFFF;
             &_active {
+                width: 202px;
                 border: solid 1px #C6CBCD;
                 border-bottom: 1px solid #FFFFFF;
+                border-radius: 5px 5px 0px 0px;
                 margin-bottom: -1px;
             }
         }
     }
     &__grid_wrapper {
         display: grid;
-        grid-template-columns: 1.3fr 1fr;
+        grid-template-columns: 1.43fr 1fr;
         column-gap: 30px;
         justify-content: center;
         align-items: center;

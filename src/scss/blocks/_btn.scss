@@ -11,6 +11,7 @@
         cursor: pointer;
         color: #EC7979;
         border: 2px solid #EC7979;
+        transition: all .5s;
     }
     &-red {
         background-color: #EC7979;
@@ -18,6 +19,7 @@
             background-color: #AB4949;
             color:#ffffff;
             border: 2px solid #AB4949;
+            transition: all .5s;
         }
         &-w370 {
             display: block;
