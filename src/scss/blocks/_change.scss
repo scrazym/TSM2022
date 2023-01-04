@@ -28,7 +28,7 @@
             }
         }
     }
-    &__grid_wrapper {
+    &__grid-wrapper {
         display: grid;
         grid-template-columns: 1.43fr 1fr;
         grid-template-rows: 500px;
@@ -37,7 +37,7 @@
         border: solid 1px #C6CBCD;
     }
     &__text {
-        padding: 40px 30px 20px 100px;
+        padding: 43px 15px 20px 100px;
         &-title {
             padding-bottom: 67px;
             font-family: 'Open Sans';

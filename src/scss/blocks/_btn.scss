@@ -16,9 +16,10 @@
         }
     }
     
-    &-red {
-        height: 62px;
-        background-color: #EC7979;
+    &_red {
+        height: 58px;
+        border: 1px solid #EC7979;
+        background: #EC7979;
         &:hover {
             background-color: #AB4949;
             color:#ffffff;
