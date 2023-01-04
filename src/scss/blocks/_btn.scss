@@ -1,19 +1,23 @@
-.download {
-    position: relative;
-    z-index: 4;
+.button {
     background: none;
-    border: 2px solid #ffffff;
     width: 270px;
     height: 58px;
     font-size: 18px;
-    color: #ffffff;
-    &:hover {
-        cursor: pointer;
-        color: #EC7979;
-        border: 2px solid #EC7979;
-        transition: all .5s;
+    font-family: 'Open Sans';
+    font-weight: 6;
+    &_white {
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        &:hover {
+            cursor: pointer;
+            color: #EC7979;
+            border: 2px solid #EC7979;
+            transition: all .5s;
+        }
     }
+    
     &-red {
+        height: 62px;
         background-color: #EC7979;
         &:hover {
             background-color: #AB4949;

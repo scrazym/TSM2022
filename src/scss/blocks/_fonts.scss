@@ -18,18 +18,18 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: local('OpenSans-VariableFont_wdth'),
-        url('../fonts/OpenSans-VariableFont_wdth\,wght.woff2') format('woff2'),
-        url('../fonts/OpenSans-VariableFont_wdth\,wght.woff') format('woff');
+    src: local('OpenSans'),
+        url('../fonts/OpenSans.woff2') format('woff2'),
+        url('../fonts/OpenSans.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: local('OpenSans-VariableFont_wdth'),
-        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
-        url('../fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-family: 'OpenSans';
+    src: local('OpenSans'),
+        url('../../fonts/OpenSans.woff2') format('woff2'),
+        url('../../fonts/OpenSans.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }

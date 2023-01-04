@@ -1,6 +1,6 @@
 .awesome {
     min-height: 773px;
-    padding: 30px 170px 58px 170px;
+    padding: 104px 170px 58px 170px;
 
     
     &__wrapper {
@@ -16,7 +16,7 @@
             align-items: center;
             padding-top: 40px;
             &_title {
-                padding: 70px 0 60px 0;
+                padding: 70px 0 42px 0;
             }
             &_img {
                 width: 92px;
@@ -28,7 +28,10 @@
                 align-items: center;
             }
             &-descr {
-                
+                font-family: 'Raleway';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 16px;
                 text-align: center;
             }
         }

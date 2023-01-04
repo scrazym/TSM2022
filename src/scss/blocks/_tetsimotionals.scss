@@ -1,7 +1,7 @@
 .testimotionals {
     padding:100px 0 65px 0;
     &__wrapper {
-        margin-top: 80px;
+        margin-top: 82px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 30px;
@@ -28,7 +28,7 @@
             }
             &_person {
                 display: flex;
-                padding-top: 45px;
+                padding-top: 37px;
                 &-foto {
                     margin-right: 30px;
                 }
