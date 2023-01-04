@@ -25,6 +25,12 @@
             border-bottom: 1px solid #FFFFFF;
             left: 0;
         }
+        &-center {
+            &::after {
+                left: calc(50% - 85px);
+                top: 33%;
+            }
+        }
     }
     &_fz48 {
         font-size: 48px;
