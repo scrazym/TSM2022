@@ -5,74 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AXIT project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
+    <!-- <link
         href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300;400;500;700;900&family=Roboto&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
 
     <header class="header">
-        <div class="header__logo">
-            <h2 class="header__logo_text">AX<span class="header__logo_text-red">IT</span></h2>
+
+        <div class="logo header__logo">
+
+            <h2 class="logo__text logo__text_small">AX<span class="logo__text_red">IT</span></h2>
+
         </div>
-        <nav class="header__nav">
-            <ul class="header__nav_list">
-                <li class="header__nav_list-item">
-                    <a href="#">Features</a>
+
+        <nav class="nav header__nav">
+            <ul class="nav__list">
+
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Features</a>
                 </li>
-                <li class="header__nav_list-item">
-                    <a href="#">About</a>
+
+                <li class="nav__item">
+                    <a class="nav__link" href="#">About</a>
                 </li>
-                <li class="header__nav_list-item">
-                    <a href="#">Pricing</a>
+
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Pricing</a>
                 </li>
-                <li class="header__nav_list-item">
-                    <a href="#">Reviews</a>
+
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Reviews</a>
                 </li>
-                <li class="header__nav_list-item">
-                    <a href="#">Contact</a>
+
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Contact</a>
                 </li>
+
             </ul>
+
         </nav>
+
     </header>
 
+
+
     <section class="trying">
+
         <div class="bg-shadow"></div>
+
         <div class="container trying__container">
             <div class="trying__text">
-                <h1 class="header__logo_text header__logo_text-fz55">AX<span class="header__logo_text-red">IT</span>
-                </h1>
-                <div class="trying__title title-fz48">
+                <div class="logo trying__logo">
+
+                    <h2 class="logo__text logo__text_big">AX<span class="logo__text_red">IT</span></h2>
+        
+                </div>
+
+                <div class="title title_fz48 title_white trying__title ">
                     MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
                 </div>
                 <!-- <div class="divider divider-grey"></div> -->
                 <div class="trying__descr">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </div>
-                <button class="download">
+
+                <button class="button button_white">
                     Download
                 </button>
             </div>
 
-            <div class="trying__order">
-                <h2 class="trying__order-title">
-                    Try Your <span class="trying__order-title_red">FREE</span> Trial Today
+            <div class="trying__order form">
+                <h2 class="form__title">
+                    Try Your <span class="form__title_red">FREE</span> Trial Today
                 </h2>
 
-                <form action="action" class="trying__order_form">
-                    <input class="trying__order_input" type="text" placeholder="Name" value="">
-                    <input class="trying__order_input" type="email" placeholder="Email" required value="">
-                    <input class="trying__order_input" type="password" placeholder="Password" required value="">
+                <form action="action" class="trying__form form__field">
+                    <input class="trying__input form__input" type="text" placeholder="Name" value="">
+                    <input class="trying__input form__input" type="email" placeholder="Email" required value="">
+                    <input class="trying__input form__input" type="password" placeholder="Password" required value="">
 
                 </form>
-                <div class="trying__start">
-                    Get Started
-                </div>
+                <form action="action" class="trying__button">
+                    <label for="start">
+                        <input name="start" class="trying__input form__input_submit" type="submit" placeholder="" required value="Get Started">
+                    </label>
+                </form>
+                
             </div>
         </div>
     </section>
@@ -80,10 +104,10 @@
     <section class="social">
         <div class="container social__container">
             <div class="social__text">
-                <div class="social__text-title">
+                <div class="social__title">
                     Social Media
                 </div>
-                <div class="social__text-descr">
+                <div class="social__descr">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean euismod bibendum laoreet.
                 </div>
@@ -131,7 +155,7 @@
                 <div class="change__tabs-item">Tab 2</div>
                 <div class="change__tabs-item">Tab 3</div>
             </div>
-            <div class="change__grid_wrapper">
+            <div class="change__grid-wrapper">
                 <div class="change__text">
                     <h2 class="change__text-title">
                         New York museum
@@ -146,7 +170,7 @@
                     <div class="change__text-descr">
                         The Lincoln Museum is located a block south of the Capitol, the Capitol Building.
                     </div>
-                    <button class="download download-red">
+                    <button class="button button_red">
                         Download
                     </button>
 
@@ -160,44 +184,48 @@
     </section>
 
     <section class="awesome">
+
         <div class="container">
+
             <h2 class="title awesome__title">
-                what this is awesome
+                why this is awesome
             </h2>
+
             <div class="title__descr awesome__descr">
                 <p class="title__descr">What we can make awesome for you</p>
             </div>
-            <div class="awesome__wrapper">
-                <div class="awesome__wrapper_item">
-                    <div class="awesome__wrapper_item_img">
-                        <img class="awesome__wrapper_item_img-icon" src="./assets/icons/lamp.png" alt="lamp">
+
+            <div class="awesome__wrapper wrapper">
+                <div class="wrapper__item">
+                    <div class="wrapper__icon">
+                        <img class="wrapper__icon-img" src="./assets/icons/lamp.png" alt="lamp">
                     </div>
-                    <h3 class="awesome__wrapper_item_title title-fz24">great idea</h3>
-                    <div class="awesome__wrapper_item-descr">
+                    <h3 class="wrapper__title title-fz24">great idea</h3>
+                    <div class="wrapper__descr">
                         He should also consider using the game in a broader sense, as a way to try and prevent this weird world of weird behavior from recurring for years to come.
-                        So…I hope you enjoyed reading these thoughts about how to implement Twitch's free character creation option in Minecraft.
+                       
 
                     </div>
                 </div>
 
-                <div class="awesome__wrapper_item">
-                    <div class="awesome__wrapper_item_img">
-                        <img class="awesome__wrapper_item_img-icon" src="./assets/icons/keybord.png" alt="keybord">
+                <div class="wrapper__item">
+                    <div class="wrapper__icon">
+                        <img class="wrapper__icon-img" src="./assets/icons/keybord.png" alt="keybord">
                     </div>
-                    <h3 class="awesome__wrapper_item_title title-fz24">Readeable text</h3>
-                    <div class="awesome__wrapper_item-descr">
-                        To see what the Emacs source files are do it that way here. And to see how you can use them, here are some of my favorite Emacs and M-x source files for use with M-x source files. (Or, to write a list of them, read "The ELSX FLEXIST" on Wikipedia; these files were developed by EZ. They are a lot less readable.)
+                    <h3 class="wrapper__title title-fz24">Readeable text</h3>
+                    <div class="wrapper__descr">
+                        To see what the Emacs source files are do it that way here. And to see how you can use them, here are some of my favorite Emacs and M-x.
 
                     </div>
                 </div>
 
-                <div class="awesome__wrapper_item">
-                    <div class="awesome__wrapper_item_img">
-                        <img class="awesome__wrapper_item_img-icon" src="./assets/icons/lightning.png" alt="lihtning">
+                <div class="wrapper__item">
+                    <div class="wrapper__icon">
+                        <img class="wrapper__icon-img" src="./assets/icons/lightning.png" alt="lihtning">
                     </div>
-                    <h3 class="awesome__wrapper_item_title title-fz24">Fast result</h3>
-                    <div class="awesome__wrapper_item-descr">
-                        n the movie Fame, a young man is famed as a performer in a Broadway play. He is on the cusp of stardom, but he doesn't seem to have a clue how to get there. He struggles to understand what it means to be a star. In the end, he realizes that he has talent and ambition- but he must use both gifts effectively to reach his goal. Talent and ambition are closely intertwined- and it is important for people to understand this.
+                    <h3 class="wrapper__title title-fz24">Fast result</h3>
+                    <div class="wrapper__descr">
+                        n the movie Fame, a young man is famed as a performer in a Broadway play. He is on the cusp of stardom, but he doesn't seem to have a clue how to get there. He struggles to understand what it means to be a star. 
                     </div>
                 </div>
 
@@ -206,52 +234,65 @@
     </section>
 
     <section class="price">
+
         <div class="container">
+
             <h2 class="title price__title">
                 pricing options
             </h2>
+
             <div class="title__descr awesome__descr">
                 <p class="title__descr">Choose your favorite plan and conect with us.</p>
             </div>
-            <div class="price__wrapper">
-                <div class="price__wrapper_item">
-                    <div class="price__wrapper_item_title">
-                        <div class="price__wrapper_item_title-option">Basic</div>
-                        <div class="price__wrapper_item_title-price">$10</div>
-                        <div class="price__wrapper_item_title-period">Free for 1 week</div>
+
+            <div class="price__wrapper  options">
+
+                <div class="options__item">
+                    <div class="options__item-title">
+                        <div class="options__item-title_option">Basic</div>
+                        <div class="options__item-title_price">$10</div>
+                        <div class="options__item-title_period">Free for 1 week</div>
                     </div>
-                    <div class="price__wrapper_item-space">1 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">2 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">3 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">4 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">5 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">6 Gb Of Space</div>
+                    <div class="options__item_space">1 Gb Of Space</div>
+                    <div class="options__item_space">2 Gb Of Space</div>
+                    <div class="options__item_space">3 Gb Of Space</div>
+                    <div class="options__item_space">4 Gb Of Space</div>
+                    <div class="options__item_space">5 Gb Of Space</div>
+                    <div class="options__item_space">6 Gb Of Space</div>
                 </div>
-                <div class="price__wrapper_item">
-                    <div class="price__wrapper_item_title">
-                        <div class="price__wrapper_item_title-option">Optima</div>
-                        <div class="price__wrapper_item_title-price">$20</div>
-                        <div class="price__wrapper_item_title-period">Free for 1 month</div>
+
+                <div class="options__item">
+
+                    <div class="options__item-title">
+
+                        <div class="options__item-title_option">Optima</div>
+                        <div class="options__item-title_price">$20</div>
+                        <div class="options__item-title_period">Free for 1 month</div>
+
                     </div>
-                    <div class="price__wrapper_item-space">10 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">20 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">30 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">40 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">50 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">60 Gb Of Space</div>
+
+                    <div class="options__item_space">10 Gb Of Space</div>
+                    <div class="options__item_space">20 Gb Of Space</div>
+                    <div class="options__item_space">30 Gb Of Space</div>
+                    <div class="options__item_space">40 Gb Of Space</div>
+                    <div class="options__item_space">50 Gb Of Space</div>
+                    <div class="options__item_space">60 Gb Of Space</div>
                 </div>
-                <div class="price__wrapper_item">
-                    <div class="price__wrapper_item_title">
-                        <div class="price__wrapper_item_title-option">Pro</div>
-                        <div class="price__wrapper_item_title-price">$30</div>
-                        <div class="price__wrapper_item_title-period">Free for life</div>
+
+                <div class="options__item">
+
+                    <div class="options__item-title">
+
+                        <div class="options__item-title_option">Pro</div>
+                        <div class="options__item-title_price">$30</div>
+                        <div class="options__item-title_period">Free for life</div>
                     </div>
-                    <div class="price__wrapper_item-space">100 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">200 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">300 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">400 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">500 Gb Of Space</div>
-                    <div class="price__wrapper_item-space">600 Gb Of Space</div>
+                    <div class="options__item_space">100 Gb Of Space</div>
+                    <div class="options__item_space">200 Gb Of Space</div>
+                    <div class="options__item_space">300 Gb Of Space</div>
+                    <div class="options__item_space">400 Gb Of Space</div>
+                    <div class="options__item_space">500 Gb Of Space</div>
+                    <div class="options__item_space">600 Gb Of Space</div>
                 </div>
 
             </div>
@@ -267,74 +308,96 @@
             <div class="title__descr testimotionals__descr">
                 <p class="title__descr">We shaw yoy our clients testimotionals.</p>
             </div>
-            <div class="testimotionals__wrapper">
-                <div class="testimotionals__wrapper_item">
-                    <p class="testimotionals__wrapper_item_text">
-                        I found this to be some of my favorite reads of all time. I recommend.
-                        Now you guys are going to like it, read all 5 reviews below but keep the love flowing and it will be long before you give it another 10 stars.
-                        
-                        After finishing the new volume, I will finish the new one. 
-                    </p>
-                    <div class="testimotionals__wrapper_item-triangle"></div>
 
-                    <div class="testimotionals__wrapper_item_person">
-                        <div class="testimotionals__wrapper_item_person-img">
-                            <img src="./assets/icons/foto3.png" alt="foto-testimotionals"
-                                class="testimotionals__wrapper_item_person-foto">
+            <div class="testimotionals__wrapper">
+
+                <div class="feedback">
+
+                    <div class="feedback__text">
+
+                        <div class="feedback__text-black">
+                            I found this to be some of my favorite reads of all time. I recommend.
+                            Now you guys are going to like it, read all 5 reviews below but keep the love flowing and it will be long before you give it another 10 stars.
+                             
                         </div>
-                        <div class="testimotionals__wrapper_item_person_info">
-                            <h3 class="testimotionals__wrapper_item_person_info-name title-fz24">
+
+                    </div>
+
+                    <div class="feedback__text-triangle"></div>
+
+                    <div class="feedback__person">
+                        <div class="feedback__person-foto">
+                            <img src="./assets/icons/foto3.png" alt="foto-testimotionals"
+                                class="feedback__person-img">
+                        </div>
+                        <div class="feedback__person-info">
+                            <h3 class="feedback__person-name title-fz24">
                                 Davis Rhiel Madsen
                             </h3>
-                            <p class="testimotionals__wrapper_item_person_info-job">
+                            <p class="feedback__person-job">
                                 Manager
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="testimotionals__wrapper_item">
-                    <p class="testimotionals__wrapper_item_text">
-                        Great emotion !!! I'm extremely sorry if I couldn't take time to share some of this new love for my mother. I had to call up my boyfriend after I heard about her in the press and he was so kind and helpful and she was so emotional about my love so I can't fault her any less. THANK YOU BESAME YOU ALL for so long!
-                    </p>
-                    <div class="testimotionals__wrapper_item-triangle"></div>
+                <div class="feedback">
 
-                    <div class="testimotionals__wrapper_item_person">
-                        <div class="testimotionals__wrapper_item_person-img">
-                            <img src="./assets/icons/foto1.png" alt="foto-testimotionals"
-                                class="testimotionals__wrapper_item_person-foto">
+                    <div class="feedback__text">
+
+                        <div class="feedback__text-black">
+                            Great emotion !!! I'm extremely sorry if I couldn't take time to share some of this new love for my mother. I had to call up my boyfriend after I heard about her in the press and he was so kind and helpful and she was so emotional 
                         </div>
-                        <div class="testimotionals__wrapper_item_person_info">
-                            <h3 class="testimotionals__wrapper_item_person_info-name title-fz24">
+
+                    </div>
+
+                    <div class="feedback__text-triangle"></div>
+
+                    <div class="feedback__person">
+                        <div class="feedback__person-foto">
+                            <img src="./assets/icons/foto1.png" alt="foto-testimotionals"
+                                class="feedback__person-img">
+                        </div>
+                        <div class="feedback__person-info">
+                            <h3 class="feedback__person-name title-fz24">
                                 Jaydon rosser
                             </h3>
-                            <p class="testimotionals__wrapper_item_person_info-job">
+                            <p class="feedback__person-job">
                                 QA engineer
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="testimotionals__wrapper_item">
-                    <p class="testimotionals__wrapper_item_text">
-                        I have already written about these in my earlier post on the best systems for building and configuring applications. So, in this brief guide, I want to go a step further and cover some of the more important tools you can choose to use to build applications.
-                    </p>
-                    <div class="testimotionals__wrapper_item-triangle"></div>
+                <div class="feedback">
 
-                    <div class="testimotionals__wrapper_item_person">
-                        <div class="testimotionals__wrapper_item_person-img">
-                            <img src="./assets/icons/foto2.png" alt="foto-testimotionals"
-                                class="testimotionals__wrapper_item_person-foto">
+                    <div class="feedback__text">
+
+                        <div class="feedback__text-black">
+                            I have already written about these in my earlier post on the best systems for building and configuring applications. So, in this brief guide, I want to go a step further and cover some of the more important tools.
                         </div>
-                        <div class="testimotionals__wrapper_item_person_info">
-                            <h3 class="testimotionals__wrapper_item_person_info-name title-fz24">
+
+                    </div>
+
+                    <div class="feedback__text-triangle"></div>
+
+                    <div class="feedback__person">
+                        <div class="feedback__person-foto">
+                            <img src="./assets/icons/foto2.png" alt="foto-testimotionals"
+                                class="feedback__person-img">
+                        </div>
+                        <div class="feedback__person-info">
+                            <h3 class="feedback__person-name title-fz24">
                                 Cooper Dorwart
                             </h3>
-                            <p class="testimotionals__wrapper_item_person_info-job">
+                            <p class="feedback__person-job">
                                 Dev ops
                             </p>
                         </div>
                     </div>
+                </div>
+
+
                 </div>
             </div>
         </div>
@@ -343,15 +406,15 @@
     <section class="prototype">
 
         <div class="container prototype__container">
-            <h2 class="title title-white testimotionals__title">
+            <h2 class="title title_white title_white-center testimotionals__title">
                 STYLISH AXURE Design
             </h2>
 
-            <p class="prototype__descr">
+            <p class="prototype__descr title__descr">
                 Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
             </p>
 
-            <button class="download download-w370">
+            <button class="button button_white button_w370 download-w370">
                 Download
             </button>
         </div>
@@ -370,18 +433,18 @@
             </div>
             <div class="contact__wrapper">
                 <div class="contact__wrapper_info">
-                    <form action="action" class="form contact__form">
-                        <input class="form__input contact__form-input" type="text" placeholder="Name" value="">
-                        <input class="form__input contact__form-input" type="email" required placeholder="Email"
+                    <form action="action" class="contact__form">
+                        <input class="form__input contact__form-input contact__form-name" type="text" placeholder="Name" value="">
+                        <input class="form__input contact__form-input contact__form-email" type="email" required placeholder="Email"
                             value=""">
-                        <input class=" form__input contact__form-input" type="password" required placeholder="Password"
+                        <input class=" form__input contact__form-input contact__form-psw" type="password" required placeholder="Password"
                             value="">
 
                     </form>
                 </div>
                 <div class="contact__wrapper_info">
-                    <form action="action" class="form contact__form">
-                        <input class="form__input form__input-msg contact__form-input " type="textarea"
+                    <form action="action" class="contact__form">
+                        <input class="form__input form__input-msg contact__form-input  contact__form-msg" type="textarea"
                             placeholder="Message" value="">
 
 
@@ -389,7 +452,7 @@
                 </div>
             </div>
 
-            <button class="download download-red download-red-w370">
+            <button class="button button_red button_w370 contact__button">
                 Send Message
             </button>
 

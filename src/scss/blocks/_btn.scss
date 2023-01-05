@@ -1,23 +1,31 @@
-.download {
-    position: relative;
-    z-index: 4;
+.button {
     background: none;
-    border: 2px solid #ffffff;
     width: 270px;
     height: 58px;
     font-size: 18px;
-    color: #ffffff;
-    &:hover {
-        cursor: pointer;
-        color: #EC7979;
-        border: 2px solid #EC7979;
+    font-family: 'Open Sans';
+    font-weight: 6;
+    &_white {
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        &:hover {
+            cursor: pointer;
+            color: #EC7979;
+            border: 2px solid #EC7979;
+            transition: all .5s;
+        }
     }
-    &-red {
-        background-color: #EC7979;
+    
+    &_red {
+        height: 58px;
+        border: 1px solid #EC7979;
+        background: #EC7979;
+        color:#ffffff;
         &:hover {
             background-color: #AB4949;
             color:#ffffff;
             border: 2px solid #AB4949;
+            transition: all .5s;
         }
         &-w370 {
             display: block;
@@ -25,7 +33,7 @@
             margin: 0 auto;
         }
     }
-    &-w370 {
+    &_w370 {
         width: 370px;
         display: block;
         margin: 0 auto;
