@@ -1,32 +1,35 @@
 .social {
     background-color: #F8EFEF;
-    padding: 10px 0 10px 0;
+    padding: 18px 0 19px 0;
     &__container {
         display: flex;
         justify-content: space-between;
+        gap: 20px;
         align-items: center;
     }
     &__text {
         width: 40%;
-
-        &-title {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 60px;
-            color: #333333;
-            padding-bottom: 20px;
-        }
-        &-descr {
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 21px;
-            color: #86878B;
-        }
+    }
+    &__title {
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #333333;
+        padding-bottom: 35px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+        font-family: 'Raleway';
     }
     &__icons {
         width: 60%;
         display: flex;
         justify-content: space-between;
+        padding-left: 20px;
         &_item {
             border-radius: 20px;
             &:hover {
