@@ -1,25 +1,19 @@
-.form {
-    background-color: #FFFFFF;
+// .form {
+//     background-color: #FFFFFF;
     
-    &__input {
-        width: 100%;
+//     &__input {
+//         width: 100%;
         
-        border: none;
-        border-bottom: 1px solid #BDBDBD;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px;
-        color: #BDBDBD;
-        ::placeholder {
-            color: #BDBDBD;
-        }
-        &-msg {
-            padding: 0;
-            height: 216px;
-            vertical-align: top;
-            &::placeholder {
-                transform: translateY(-60px);
-            }
-        }
-    }
-}
+//         border: none;
+//         border-bottom: 1px solid #BDBDBD;
+//         font-weight: 400;
+//         font-size: 14px;
+//         line-height: 19px;
+//         color: #BDBDBD;
+//         ::placeholder {
+//             color: #BDBDBD;
+//         }
+//         
+//         }
+//     }
+// }

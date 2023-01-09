@@ -1,20 +1,37 @@
 .contact {
-    padding: 110px 0 50px 0;
-
+    padding: 104px 0 50px 0;
+    &__title {
+        text-align: center;
+    }
     &__descr {
-        padding-bottom: 90px;
+        padding-bottom: 83px;
     }
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 53px;
     }
     &__form {
         
         &-input {
-            padding: 37px 0 15px 0;
-            
+           height: 40px;
+           padding: 1px 0 9px 0;   
         }
+        &-email {
+            margin-top: 47px;
+        }
+        &-psw {
+            margin-top: 47px;
+        }
+        &-msg {
+            padding: 0;
+            height: 216px;
+            vertical-align: top;
+            &::placeholder {
+                transform: translateY(-92px);
+            }                
     }
+}
+
 }
