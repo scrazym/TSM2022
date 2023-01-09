@@ -1,11 +1,17 @@
 .header {
     width: 100%;
-    min-height: 75px;
     background-color: #000000;
+    padding: 15px 10px 13px 0;
+    &__logo {
+        transform: translateX(-50px);
+    }
+}
+.header__container {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px 0 115px;
+    // padding: 0 200px 0 115px;
     }
     .nav {
         &__list {
@@ -13,14 +19,22 @@
             justify-content: space-between;
             gap: 65px;
             list-style-type: none;
-            font-family: 'Open Sans';
+            font-family: 'Open Sans',sans-serif;
             font-size: 14px;
             font-weight: 600;
+            padding-right: 26px;
        }
         &__link {
+            display: block;
+            align-self: stretch;
+            height: 100%;
+            line-height: 47px;
             text-decoration: none;
             list-style-type: none;
             color: #ffffff;
+            &:hover {
+                cursor: pointer;
+            }
        } 
     }
 
@@ -29,6 +43,7 @@
         font-family: 'Raleway';
         font-weight: 500;
         color: #ffffff;
+        
         &_red {
             color:#EC7979;
         }
@@ -39,4 +54,7 @@
             font-size: 77px;
         }
     }
+}
+.hamburger {
+    
 }
