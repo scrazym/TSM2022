@@ -1,5 +1,5 @@
 .trying {
-    background: url(../assets/img/bg1.png) center (-75px / cover) no-repeat;
+    background: url(../assets/img/bg1.png) center (center / cover) no-repeat;
     padding: 207px 0 183px 0;
     min-height: 951px;
     position: relative;
@@ -74,7 +74,6 @@
         font-family: 'Open Sans';
         font-weight: 600;
         font-size: 14px;
-        color: red;
         &::placeholder {
             font-family: 'Raleway';
             font-weight: 400;
